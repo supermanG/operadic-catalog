@@ -10,3 +10,20 @@ build/
 venv/
 .env
 *.so
+
+# Lean
+lean/.lake/
+*.olean
+*.ilean
+*.trace
+
+# LaTeX
+latex/*.aux
+latex/*.log
+latex/*.bbl
+latex/*.blg
+latex/*.out
+latex/*.toc
+latex/*.fls
+latex/*.fdb_latexmk
+latex/*.synctex.gz

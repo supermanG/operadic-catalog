@@ -1,0 +1,83 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage[utf8]{inputenc}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+
+\title{Supplementary Material: Operadic Mechanism Catalog}
+\author{L.\ Horesh}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Complete Sigrist--Ueda channel table}\label{sec:channels}
+
+\begin{longtable}{lrl}
+\toprule
+Point group & $|$Channels$|$ & Allowed channels \\
+\midrule
+\endfirsthead
+\toprule
+Point group & $|$Channels$|$ & Allowed channels \\
+\midrule
+\endhead
+$C_1$   & 1 & $s$ \\
+$C_i$   & 2 & $s, p$ \\
+$C_2$   & 2 & $s, d$ \\
+$C_s$   & 2 & $s, d$ \\
+$C_{2h}$ & 3 & $s, p, d$ \\
+$D_2$   & 2 & $s, d$ \\
+$C_{2v}$ & 2 & $s, d$ \\
+$D_{2h}$ & 3 & $s, p, d$ \\
+$C_3$   & 2 & $s, z_3$ \\
+$S_6$   & 3 & $s, p, z_3$ \\
+$D_3$   & 2 & $s, z_3$ \\
+$C_{3v}$ & 2 & $s, z_3$ \\
+$D_{3d}$ & 3 & $s, p, z_3$ \\
+$C_4$   & 3 & $s, d, z_4$ \\
+$S_4$   & 3 & $s, d, z_4$ \\
+$C_{4h}$ & 4 & $s, p, d, z_4$ \\
+$D_4$   & 5 & $s, d, d_{x^2-y^2}, d_{xy}, z_4$ \\
+$C_{4v}$ & 5 & $s, d, d_{x^2-y^2}, d_{xy}, z_4$ \\
+$D_{2d}$ & 5 & $s, d, d_{x^2-y^2}, d_{xy}, z_4$ \\
+$D_{4h}$ & 6 & $s, p, d, d_{x^2-y^2}, d_{xy}, z_4$ \\
+$C_6$   & 4 & $s, d, z_3, z_6$ \\
+$C_{3h}$ & 4 & $s, d, z_3, z_6$ \\
+$C_{6h}$ & 5 & $s, p, d, z_3, z_6$ \\
+$D_6$   & 4 & $s, d, z_3, z_6$ \\
+$C_{6v}$ & 4 & $s, d, z_3, z_6$ \\
+$D_{3h}$ & 3 & $s, d, z_3$ \\
+$D_{6h}$ & 5 & $s, p, d, z_3, z_6$ \\
+$T$     & 4 & $s, d, z_3, f$ \\
+$T_h$   & 5 & $s, p, d, z_3, f$ \\
+$O$     & 4 & $s, d, z_3, f$ \\
+$T_d$   & 4 & $s, d, z_3, f$ \\
+$O_h$   & 5 & $s, p, d, z_3, f$ \\
+\bottomrule
+\end{longtable}
+
+\section{Subgroup lattice (Hasse diagram edges)}\label{sec:lattice}
+
+% To be populated with the full maximal-subgroup table.
+
+\section{Lean 4 axiom footprint}\label{sec:axioms}
+
+All theorems in \texttt{lean/OperadicCatalog.lean} depend only on the
+standard Lean foundation axioms:
+\begin{itemize}
+  \item \texttt{propext} (propositional extensionality)
+  \item \texttt{Classical.choice} (axiom of choice)
+  \item \texttt{Quot.sound} (quotient soundness)
+\end{itemize}
+No project-specific axioms are used.
+
+\section{Operadic equivalence class details}\label{sec:classes}
+
+% To be populated after running enumerate\_classes on the full pool.
+
+\end{document}

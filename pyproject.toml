@@ -18,7 +18,7 @@ dev = [
 ]
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["python"]
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = ["python/tests"]
