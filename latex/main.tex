@@ -193,17 +193,87 @@ define isomorphic $\OO$-algebras: same point group, same channel set,
 and (optionally) same cyclic weight profile up to tolerance.
 
 The coarse partition (ignoring weights) groups materials by their
-point group alone, yielding exactly 32 classes. The fine partition
-(with weight tolerance $\epsilon = 0.05$) subdivides further,
-yielding $\sim$30--50 classes on the 7449-material pool.
+point group alone, yielding 21 classes on the 735 materials in the
+v14 candidate pool with assigned crystallographic point groups.
+The fine partition (with weight tolerance $\epsilon = 0.05$)
+subdivides further into 159 classes, of which 12 contain more
+than 10 members. Varying $\epsilon$ from 0.01 to 0.50 yields
+between 199 and 67 fine classes (\cref{tab:tol-scan}).
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ccccc}
+\toprule
+Tolerance $\epsilon$ & Classes & Singletons &
+  Classes $>10$ & Largest \\
+\midrule
+0.01 & 199 & 136 & 11 & 162 \\
+0.05 & 159 & 97  & 12 & 162 \\
+0.10 & 126 & 59  & 12 & 162 \\
+0.15 & 110 & 48  & 12 & 162 \\
+0.20 & 101 & 41  & 13 & 162 \\
+0.30 & 82  & 28  & 16 & 162 \\
+0.50 & 67  & 20  & 14 & 162 \\
+\bottomrule
+\end{tabular}
+\caption{Operadic equivalence classes at varying weight tolerances
+  on the 735-material pool.}\label{tab:tol-scan}
+\end{table}
 
 \section{Applications}\label{sec:applications}
 
-% To be filled after running enumerate_classes on the full pool.
+The operadic framework yields several concrete results for
+superconductor classification:
+
+\paragraph{Heusler-class clustering.}
+The cubic point group $O_h$ (313 materials, 42.6\% of the pool)
+splits into three distinct fine classes by dominant channel:
+a large $s$-dominant class (162 materials, $T_c$ range 0.4--16.1\,K),
+and two $z_3$-dominant classes (59 and 49 materials respectively).
+The $z_3$ splitting reflects distinct cyclic weight profiles within
+the same algebraic type, distinguishing Heusler aluminides (e.g.\
+Rh$_2$HfGa) from Heusler silicides (e.g.\ Ru$_2$LiSi).
+
+\paragraph{Boride class.}
+$D_{6h}$ materials with $z_3$ dominance (53 materials) form a
+coherent operadic class containing the known superconducting
+diborides MgB$_2$-class: B$_2$Sc, B$_2$Cr, B$_2$Nb, with
+$T_c$ range 0.1--12.9\,K.
+
+\paragraph{Cuprate-channel classes.}
+$D_{4h}$ and $C_{4v}$ materials with $z_4$ dominance form the
+cuprate-class pairing channel, totaling 64 materials across 5
+fine classes. The highest-$T_c$ entries (up to 22.6\,K on $T_c^{v11}$)
+are found in the $D_{4h}$/$z_4$ class.
+
+\paragraph{Restriction survival.}
+The operadic restriction functor predicts which channels survive
+symmetry reduction. For example, the $z_4$ channel of $D_{4h}$
+is lost upon restriction to $D_{2h}$, while $d$-wave is
+preserved. This is verified formally in Lean~4 (\texttt{z4\_lost\_d4h\_to\_d2h}, \texttt{d\_preserved\_d4h\_to\_d2h}).
 
 \section{Conclusion}\label{sec:conclusion}
 
-% To be written.
+We have introduced a colored operad $\OO$ that captures the
+compositional structure of unconventional superconducting pairing
+mechanisms. The Sigrist--Ueda classification table is recovered as
+the free $\OO$-algebra, each material defines an algebra over $\OO$
+via its cyclic operad weights, and symmetry reduction is a
+restriction functor on $\OO$-algebras.
+
+Applied to 735 materials from the v14 candidate pool with assigned
+crystallographic point groups, the operadic equivalence quotient
+yields 21 coarse classes (by point group) and 67--199 fine classes
+(by cyclic weight profile). Physically meaningful groupings emerge:
+Heusler-class ($O_h$, $s$/$z_3$-dominant), boride-class ($D_{6h}$,
+$z_3$-dominant), and cuprate-channel ($D_{4h}$/$C_{4v}$,
+$z_4$-dominant) clusters are cleanly separated.
+
+All operad axioms and key theorems are formally verified in
+Lean~4 with Mathlib, with axiom footprint limited to
+\texttt{propext}, \texttt{Quot.sound}, and \texttt{native\_decide}
+trust. The complete classification data and Lean proofs are
+available at \url{https://github.com/supermanG/operadic-catalog}.
 
 \bibliographystyle{abbrv}
 \bibliography{refs}

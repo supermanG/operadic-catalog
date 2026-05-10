@@ -1,0 +1,2597 @@
+{
+  "pool_size": 735,
+  "pool_total_v14": 7449,
+  "pool_with_pg": 735,
+  "distinct_point_groups": 21,
+  "tolerance_scan": {
+    "0.01": {
+      "n_classes": 199,
+      "singletons": 136,
+      "gt10": 11,
+      "largest": 162
+    },
+    "0.05": {
+      "n_classes": 159,
+      "singletons": 97,
+      "gt10": 12,
+      "largest": 162
+    },
+    "0.1": {
+      "n_classes": 126,
+      "singletons": 59,
+      "gt10": 12,
+      "largest": 162
+    },
+    "0.15": {
+      "n_classes": 110,
+      "singletons": 48,
+      "gt10": 12,
+      "largest": 162
+    },
+    "0.2": {
+      "n_classes": 101,
+      "singletons": 41,
+      "gt10": 13,
+      "largest": 162
+    },
+    "0.3": {
+      "n_classes": 82,
+      "singletons": 28,
+      "gt10": 16,
+      "largest": 162
+    },
+    "0.5": {
+      "n_classes": 67,
+      "singletons": 20,
+      "gt10": 14,
+      "largest": 162
+    }
+  },
+  "coarse_classes": [
+    {
+      "point_group": "Oh",
+      "channels": [
+        "d",
+        "f",
+        "p",
+        "s",
+        "z3"
+      ],
+      "size": 313,
+      "dominant_channel": "z3",
+      "Tc_v11_mean": 4.59,
+      "Tc_v11_range": [
+        0.0,
+        16.11
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "channels": [
+        "d",
+        "p",
+        "s",
+        "z3",
+        "z6"
+      ],
+      "size": 95,
+      "dominant_channel": "z3",
+      "Tc_v11_mean": 3.52,
+      "Tc_v11_range": [
+        0.03,
+        12.92
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "channels": [
+        "d",
+        "d_x2y2",
+        "d_xy",
+        "p",
+        "s",
+        "z4"
+      ],
+      "size": 78,
+      "dominant_channel": "s",
+      "Tc_v11_mean": 6.62,
+      "Tc_v11_range": [
+        0.0,
+        44.61
+      ]
+    },
+    {
+      "point_group": "C4v",
+      "channels": [
+        "d",
+        "d_x2y2",
+        "d_xy",
+        "s",
+        "z4"
+      ],
+      "size": 62,
+      "dominant_channel": "s",
+      "Tc_v11_mean": 5.4,
+      "Tc_v11_range": [
+        0.03,
+        18.12
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "channels": [
+        "d",
+        "p",
+        "s"
+      ],
+      "size": 52,
+      "dominant_channel": "s",
+      "Tc_v11_mean": 5.47,
+      "Tc_v11_range": [
+        0.0,
+        22.53
+      ]
+    },
+    {
+      "point_group": "Td",
+      "channels": [
+        "d",
+        "f",
+        "s",
+        "z3"
+      ],
+      "size": 26,
+      "dominant_channel": "s",
+      "Tc_v11_mean": 6.57,
+      "Tc_v11_range": [
+        0.39,
+        15.32
+      ]
+    },
+    {
+      "point_group": "D3h",
+      "channels": [
+        "d",
+        "s",
+        "z3"
+      ],
+      "size": 25,
+      "dominant_channel": "z3",
+      "Tc_v11_mean": 4.18,
+      "Tc_v11_range": [
+        0.16,
+        11.01
+      ]
+    },
+    {
+      "point_group": "D3d",
+      "channels": [
+        "p",
+        "s",
+        "z3"
+      ],
+      "size": 24,
+      "dominant_channel": "s",
+      "Tc_v11_mean": 6.73,
+      "Tc_v11_range": [
+        0.62,
+        15.24
+      ]
+    },
+    {
+      "point_group": "C2h",
+      "channels": [
+        "d",
+        "p",
+        "s"
+      ],
+      "size": 13,
+      "dominant_channel": "s",
+      "Tc_v11_mean": 4.66,
+      "Tc_v11_range": [
+        0.27,
+        15.87
+      ]
+    },
+    {
+      "point_group": "C2v",
+      "channels": [
+        "d",
+        "s"
+      ],
+      "size": 13,
+      "dominant_channel": "s",
+      "Tc_v11_mean": 5.31,
+      "Tc_v11_range": [
+        0.26,
+        13.24
+      ]
+    },
+    {
+      "point_group": "D2d",
+      "channels": [
+        "d",
+        "d_x2y2",
+        "d_xy",
+        "s",
+        "z4"
+      ],
+      "size": 6,
+      "dominant_channel": "z4",
+      "Tc_v11_mean": 2.16,
+      "Tc_v11_range": [
+        0.02,
+        4.96
+      ]
+    },
+    {
+      "point_group": "C1",
+      "channels": [
+        "s"
+      ],
+      "size": 4,
+      "dominant_channel": "s",
+      "Tc_v11_mean": 4.83,
+      "Tc_v11_range": [
+        0.0,
+        11.07
+      ]
+    },
+    {
+      "point_group": "Cs",
+      "channels": [
+        "d",
+        "s"
+      ],
+      "size": 4,
+      "dominant_channel": "s",
+      "Tc_v11_mean": 1.88,
+      "Tc_v11_range": [
+        0.03,
+        3.78
+      ]
+    },
+    {
+      "point_group": "D6",
+      "channels": [
+        "d",
+        "s",
+        "z3",
+        "z6"
+      ],
+      "size": 4,
+      "dominant_channel": "z3",
+      "Tc_v11_mean": 3.2,
+      "Tc_v11_range": [
+        0.09,
+        8.63
+      ]
+    },
+    {
+      "point_group": "Th",
+      "channels": [
+        "d",
+        "f",
+        "p",
+        "s",
+        "z3"
+      ],
+      "size": 4,
+      "dominant_channel": "z3",
+      "Tc_v11_mean": 1.01,
+      "Tc_v11_range": [
+        0.46,
+        2.51
+      ]
+    },
+    {
+      "point_group": "C3v",
+      "channels": [
+        "s",
+        "z3"
+      ],
+      "size": 3,
+      "dominant_channel": "s",
+      "Tc_v11_mean": 6.01,
+      "Tc_v11_range": [
+        1.6,
+        10.53
+      ]
+    },
+    {
+      "point_group": "Ci",
+      "channels": [
+        "p",
+        "s"
+      ],
+      "size": 3,
+      "dominant_channel": "s",
+      "Tc_v11_mean": 1.88,
+      "Tc_v11_range": [
+        0.07,
+        5.39
+      ]
+    },
+    {
+      "point_group": "T",
+      "channels": [
+        "d",
+        "f",
+        "s",
+        "z3"
+      ],
+      "size": 3,
+      "dominant_channel": "z3",
+      "Tc_v11_mean": 8.17,
+      "Tc_v11_range": [
+        7.01,
+        10.48
+      ]
+    },
+    {
+      "point_group": "C6v",
+      "channels": [
+        "d",
+        "s",
+        "z3",
+        "z6"
+      ],
+      "size": 1,
+      "dominant_channel": "z3",
+      "Tc_v11_mean": 15.9,
+      "Tc_v11_range": [
+        15.9,
+        15.9
+      ]
+    },
+    {
+      "point_group": "D2",
+      "channels": [
+        "d",
+        "s"
+      ],
+      "size": 1,
+      "dominant_channel": "s",
+      "Tc_v11_mean": 1.79,
+      "Tc_v11_range": [
+        1.79,
+        1.79
+      ]
+    },
+    {
+      "point_group": "D3",
+      "channels": [
+        "s",
+        "z3"
+      ],
+      "size": 1,
+      "dominant_channel": "z3",
+      "Tc_v11_mean": 4.67,
+      "Tc_v11_range": [
+        4.67,
+        4.67
+      ]
+    }
+  ],
+  "fine_classes_tol005": [
+    {
+      "point_group": "Oh",
+      "dominant_channel": "s",
+      "size": 162,
+      "examples": [
+        "Ru2LiSi",
+        "Ir2MgTa",
+        "Rh2HfGa",
+        "V2TcRu",
+        "Fe2HfAl"
+      ],
+      "Tc_v11_mean": 8.19,
+      "Tc_v11_range": [
+        0.43,
+        16.11
+      ]
+    },
+    {
+      "point_group": "Oh",
+      "dominant_channel": "z3",
+      "size": 59,
+      "examples": [
+        "Ti3AlC",
+        "O3BeGa",
+        "O3CaGa",
+        "Be4Ta2",
+        "Cr3GaN"
+      ],
+      "Tc_v11_mean": 1.22,
+      "Tc_v11_range": [
+        0.01,
+        5.43
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 53,
+      "examples": [
+        "B2Sc",
+        "B2Cr",
+        "B2Nb",
+        "B2Mn",
+        "B2Mg"
+      ],
+      "Tc_v11_mean": 3.67,
+      "Tc_v11_range": [
+        0.05,
+        12.92
+      ]
+    },
+    {
+      "point_group": "Oh",
+      "dominant_channel": "z3",
+      "size": 49,
+      "examples": [
+        "Ni3Al",
+        "Rh3Cr",
+        "Co3Nb",
+        "Co3W",
+        "Co3Mo"
+      ],
+      "Tc_v11_mean": 0.0,
+      "Tc_v11_range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "point_group": "Oh",
+      "dominant_channel": "z3",
+      "size": 27,
+      "examples": [
+        "Nb6Al2",
+        "V6Si2",
+        "Nb6Sn2",
+        "Nb6Ge2",
+        "V6As2"
+      ],
+      "Tc_v11_mean": 0.29,
+      "Tc_v11_range": [
+        0.01,
+        0.58
+      ]
+    },
+    {
+      "point_group": "Td",
+      "dominant_channel": "s",
+      "size": 22,
+      "examples": [
+        "LiMnAs",
+        "VFeSe",
+        "VGeAs",
+        "LiBN",
+        "Be2VFe"
+      ],
+      "Tc_v11_mean": 7.15,
+      "Tc_v11_range": [
+        0.39,
+        15.32
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 21,
+      "examples": [
+        "Cr2B2",
+        "V2B2",
+        "B2Mo2",
+        "Al2B2Mo2",
+        "F2Pd"
+      ],
+      "Tc_v11_mean": 7.99,
+      "Tc_v11_range": [
+        0.54,
+        14.21
+      ]
+    },
+    {
+      "point_group": "C4v",
+      "dominant_channel": "z4",
+      "size": 17,
+      "examples": [
+        "Ir2BeGe",
+        "Mn2BeIr",
+        "Mn2BeFe",
+        "O2CaGa",
+        "Be2CuIr"
+      ],
+      "Tc_v11_mean": 7.08,
+      "Tc_v11_range": [
+        0.03,
+        14.52
+      ]
+    },
+    {
+      "point_group": "D3h",
+      "dominant_channel": "z3",
+      "size": 17,
+      "examples": [
+        "LiYIr",
+        "SrPCl",
+        "SrBeSi",
+        "SrZnSi",
+        "CaBeSi"
+      ],
+      "Tc_v11_mean": 4.54,
+      "Tc_v11_range": [
+        0.3,
+        11.01
+      ]
+    },
+    {
+      "point_group": "C4v",
+      "dominant_channel": "z4",
+      "size": 15,
+      "examples": [
+        "Be2VRu",
+        "Be2SiPt",
+        "Pd2NaBe",
+        "F2ZnN",
+        "Tc2BeRh"
+      ],
+      "Tc_v11_mean": 4.53,
+      "Tc_v11_range": [
+        0.21,
+        18.12
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 12,
+      "examples": [
+        "Be2TiV",
+        "Hf2O2",
+        "Ti2AlCr",
+        "Zr2S2",
+        "Be2MgRu"
+      ],
+      "Tc_v11_mean": 4.72,
+      "Tc_v11_range": [
+        0.0,
+        22.64
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 12,
+      "examples": [
+        "Be2FeSi",
+        "Be2MoP",
+        "Be2PdRh",
+        "Be2PdPt",
+        "Be2NiP"
+      ],
+      "Tc_v11_mean": 8.72,
+      "Tc_v11_range": [
+        1.57,
+        14.78
+      ]
+    },
+    {
+      "point_group": "C4v",
+      "dominant_channel": "s",
+      "size": 9,
+      "examples": [
+        "F2TaN",
+        "F2TiO",
+        "O2TiSn",
+        "N2CaAs",
+        "As2NaCa"
+      ],
+      "Tc_v11_mean": 2.3,
+      "Tc_v11_range": [
+        0.08,
+        5.4
+      ]
+    },
+    {
+      "point_group": "D3d",
+      "dominant_channel": "s",
+      "size": 9,
+      "examples": [
+        "V2C",
+        "Nb2C",
+        "Ta2N",
+        "Ti2O",
+        "S2V"
+      ],
+      "Tc_v11_mean": 10.27,
+      "Tc_v11_range": [
+        5.65,
+        15.24
+      ]
+    },
+    {
+      "point_group": "C4v",
+      "dominant_channel": "z4",
+      "size": 8,
+      "examples": [
+        "O2ScB",
+        "Be2CrFe",
+        "Be2CrIr",
+        "Be2CuNi",
+        "Os2BeIr"
+      ],
+      "Tc_v11_mean": 8.32,
+      "Tc_v11_range": [
+        0.7,
+        15.57
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 8,
+      "examples": [
+        "V2N2",
+        "Sc2C2",
+        "Fe2S2",
+        "Fe2S2",
+        "Co2Sb2"
+      ],
+      "Tc_v11_mean": 3.36,
+      "Tc_v11_range": [
+        0.26,
+        8.34
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "s",
+      "size": 7,
+      "examples": [
+        "Si4MnFe",
+        "F2Nb",
+        "TiOF",
+        "Fe2S2",
+        "Ca2C2"
+      ],
+      "Tc_v11_mean": 4.58,
+      "Tc_v11_range": [
+        0.29,
+        13.32
+      ]
+    },
+    {
+      "point_group": "C2v",
+      "dominant_channel": "s",
+      "size": 6,
+      "examples": [
+        "TiBeP",
+        "NaAsSe",
+        "B2CrMo",
+        "Hf2AlSi",
+        "HfBeP"
+      ],
+      "Tc_v11_mean": 6.62,
+      "Tc_v11_range": [
+        2.26,
+        13.24
+      ]
+    },
+    {
+      "point_group": "C4v",
+      "dominant_channel": "s",
+      "size": 6,
+      "examples": [
+        "NaZnSe",
+        "Cl2BaBr",
+        "P2BaPb",
+        "O2CaZr",
+        "AlSbO"
+      ],
+      "Tc_v11_mean": 2.92,
+      "Tc_v11_range": [
+        0.06,
+        9.13
+      ]
+    },
+    {
+      "point_group": "C2h",
+      "dominant_channel": "s",
+      "size": 5,
+      "examples": [
+        "Be2RuRh",
+        "S4V2Co",
+        "S4V2Cr",
+        "S4Cr2Ni",
+        "N2Li"
+      ],
+      "Tc_v11_mean": 3.47,
+      "Tc_v11_range": [
+        0.87,
+        7.72
+      ]
+    },
+    {
+      "point_group": "C4v",
+      "dominant_channel": "z4",
+      "size": 5,
+      "examples": [
+        "Sc2BeIr",
+        "Sc2BeRh",
+        "Be2TiSe",
+        "Zn2BeCo",
+        "Ti2BeMo"
+      ],
+      "Tc_v11_mean": 4.94,
+      "Tc_v11_range": [
+        1.82,
+        9.56
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 5,
+      "examples": [
+        "Ni2Sb2",
+        "Ni2As2",
+        "Co2Se2",
+        "Co2As2",
+        "B2Rh2"
+      ],
+      "Tc_v11_mean": 1.76,
+      "Tc_v11_range": [
+        1.19,
+        2.14
+      ]
+    },
+    {
+      "point_group": "C1",
+      "dominant_channel": "s",
+      "size": 4,
+      "examples": [
+        "O3Nb",
+        "Li3F",
+        "O3Li",
+        "B2O"
+      ],
+      "Tc_v11_mean": 4.83,
+      "Tc_v11_range": [
+        0.0,
+        11.07
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 4,
+      "examples": [
+        "Cr2B2Al",
+        "I2Li",
+        "O2Cd",
+        "F2Li"
+      ],
+      "Tc_v11_mean": 1.8,
+      "Tc_v11_range": [
+        0.63,
+        5.04
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 4,
+      "examples": [
+        "Al4Ti2",
+        "Ti2Pd2",
+        "Nb2Rh2",
+        "Be2VRu"
+      ],
+      "Tc_v11_mean": 3.54,
+      "Tc_v11_range": [
+        0.62,
+        5.38
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "s",
+      "size": 4,
+      "examples": [
+        "Si2Fe",
+        "H2C2",
+        "Sc2MgRu",
+        "Si2Ru"
+      ],
+      "Tc_v11_mean": 7.91,
+      "Tc_v11_range": [
+        1.26,
+        15.43
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 4,
+      "examples": [
+        "Ti2Cu2",
+        "Ti2Cu2",
+        "Be2ZrPd",
+        "Be2ScTa"
+      ],
+      "Tc_v11_mean": 4.94,
+      "Tc_v11_range": [
+        0.0,
+        9.88
+      ]
+    },
+    {
+      "point_group": "Oh",
+      "dominant_channel": "z3",
+      "size": 4,
+      "examples": [
+        "B6Sr",
+        "B6Ca",
+        "B6Ba",
+        "B6Zr"
+      ],
+      "Tc_v11_mean": 5.62,
+      "Tc_v11_range": [
+        3.46,
+        7.26
+      ]
+    },
+    {
+      "point_group": "C2v",
+      "dominant_channel": "s",
+      "size": 3,
+      "examples": [
+        "O2Hf",
+        "C2YCo",
+        "P4W2"
+      ],
+      "Tc_v11_mean": 3.06,
+      "Tc_v11_range": [
+        0.85,
+        6.65
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 3,
+      "examples": [
+        "O4NbMo",
+        "O4NbRh",
+        "O4SbRh"
+      ],
+      "Tc_v11_mean": 5.34,
+      "Tc_v11_range": [
+        0.41,
+        8.33
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 3,
+      "examples": [
+        "Ti4B4",
+        "Ti4Si4",
+        "Co4B4"
+      ],
+      "Tc_v11_mean": 2.2,
+      "Tc_v11_range": [
+        0.55,
+        4.94
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 3,
+      "examples": [
+        "Cr4P4",
+        "V4S4",
+        "Fe4S4"
+      ],
+      "Tc_v11_mean": 2.87,
+      "Tc_v11_range": [
+        0.25,
+        5.7
+      ]
+    },
+    {
+      "point_group": "D3d",
+      "dominant_channel": "z3",
+      "size": 3,
+      "examples": [
+        "Se2LiZr",
+        "S2LiTi",
+        "S2CaTi"
+      ],
+      "Tc_v11_mean": 2.17,
+      "Tc_v11_range": [
+        0.62,
+        3.2
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 3,
+      "examples": [
+        "O4Rh2",
+        "O4Os2",
+        "O2SrNbN"
+      ],
+      "Tc_v11_mean": 17.76,
+      "Tc_v11_range": [
+        0.13,
+        27.59
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 3,
+      "examples": [
+        "O4Ru2",
+        "O4Pd2",
+        "N4W2"
+      ],
+      "Tc_v11_mean": 8.35,
+      "Tc_v11_range": [
+        0.78,
+        23.13
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 3,
+      "examples": [
+        "Zn2HfGa",
+        "Cu2ZnNi",
+        "Be2TiGe"
+      ],
+      "Tc_v11_mean": 0.01,
+      "Tc_v11_range": [
+        0.0,
+        0.02
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 3,
+      "examples": [
+        "Cu2O2",
+        "Pd2O2",
+        "Ni2AlV"
+      ],
+      "Tc_v11_mean": 20.95,
+      "Tc_v11_range": [
+        1.96,
+        44.61
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 3,
+      "examples": [
+        "Be2ZnPd",
+        "Ni2BeSi",
+        "Be2ZrSc"
+      ],
+      "Tc_v11_mean": 10.37,
+      "Tc_v11_range": [
+        9.75,
+        11.54
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 3,
+      "examples": [
+        "Be5Zr",
+        "Be5Hf",
+        "Be5Hf"
+      ],
+      "Tc_v11_mean": 0.03,
+      "Tc_v11_range": [
+        0.03,
+        0.04
+      ]
+    },
+    {
+      "point_group": "T",
+      "dominant_channel": "z3",
+      "size": 3,
+      "examples": [
+        "Cr4Si4",
+        "Fe4Si4",
+        "Co4Si4"
+      ],
+      "Tc_v11_mean": 8.17,
+      "Tc_v11_range": [
+        7.01,
+        10.48
+      ]
+    },
+    {
+      "point_group": "C2h",
+      "dominant_channel": "s",
+      "size": 2,
+      "examples": [
+        "Y2Fe2Si2C",
+        "Na2Si2"
+      ],
+      "Tc_v11_mean": 4.97,
+      "Tc_v11_range": [
+        3.01,
+        6.93
+      ]
+    },
+    {
+      "point_group": "C2h",
+      "dominant_channel": "s",
+      "size": 2,
+      "examples": [
+        "Be2IrRh",
+        "Y2C2I2"
+      ],
+      "Tc_v11_mean": 5.1,
+      "Tc_v11_range": [
+        4.45,
+        5.75
+      ]
+    },
+    {
+      "point_group": "C3v",
+      "dominant_channel": "s",
+      "size": 2,
+      "examples": [
+        "TiBeRh",
+        "LiBeNi"
+      ],
+      "Tc_v11_mean": 6.06,
+      "Tc_v11_range": [
+        1.6,
+        10.53
+      ]
+    },
+    {
+      "point_group": "C4v",
+      "dominant_channel": "z4",
+      "size": 2,
+      "examples": [
+        "Rh2MnBe",
+        "Nb2BeIr"
+      ],
+      "Tc_v11_mean": 8.38,
+      "Tc_v11_range": [
+        7.26,
+        9.5
+      ]
+    },
+    {
+      "point_group": "Cs",
+      "dominant_channel": "s",
+      "size": 2,
+      "examples": [
+        "BaBrO",
+        "NaInF"
+      ],
+      "Tc_v11_mean": 1.9,
+      "Tc_v11_range": [
+        0.03,
+        3.78
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 2,
+      "examples": [
+        "Al12Mn2",
+        "O4Mg2Cu2"
+      ],
+      "Tc_v11_mean": 12.55,
+      "Tc_v11_range": [
+        2.56,
+        22.53
+      ]
+    },
+    {
+      "point_group": "D3h",
+      "dominant_channel": "z3",
+      "size": 2,
+      "examples": [
+        "Ni3Mo3P3",
+        "Ti3Cr3As3"
+      ],
+      "Tc_v11_mean": 1.62,
+      "Tc_v11_range": [
+        0.16,
+        3.08
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 2,
+      "examples": [
+        "Al6TiMo",
+        "Al6ZrMo"
+      ],
+      "Tc_v11_mean": 0.0,
+      "Tc_v11_range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 2,
+      "examples": [
+        "F4Pd2",
+        "O4Ir2"
+      ],
+      "Tc_v11_mean": 15.33,
+      "Tc_v11_range": [
+        0.25,
+        30.42
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 2,
+      "examples": [
+        "Sc2BeBr",
+        "Se2GaCu"
+      ],
+      "Tc_v11_mean": 0.0,
+      "Tc_v11_range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 2,
+      "examples": [
+        "Ti6Si2",
+        "Co6Ta2"
+      ],
+      "Tc_v11_mean": 4.76,
+      "Tc_v11_range": [
+        4.75,
+        4.78
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 2,
+      "examples": [
+        "V4Ge2C2",
+        "Cr4Ge2C2"
+      ],
+      "Tc_v11_mean": 3.1,
+      "Tc_v11_range": [
+        2.91,
+        3.29
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 2,
+      "examples": [
+        "Ti6Al2",
+        "Ti6Al2"
+      ],
+      "Tc_v11_mean": 10.4,
+      "Tc_v11_range": [
+        10.4,
+        10.4
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 2,
+      "examples": [
+        "Al6Fe2",
+        "Re6Co2"
+      ],
+      "Tc_v11_mean": 6.01,
+      "Tc_v11_range": [
+        4.56,
+        7.46
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 2,
+      "examples": [
+        "Ca2B2C2",
+        "Sc2B2C2"
+      ],
+      "Tc_v11_mean": 9.27,
+      "Tc_v11_range": [
+        8.25,
+        10.3
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "s",
+      "size": 2,
+      "examples": [
+        "Zr2Te2",
+        "Ti2Te2"
+      ],
+      "Tc_v11_mean": 0.17,
+      "Tc_v11_range": [
+        0.14,
+        0.2
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 2,
+      "examples": [
+        "V2P2",
+        "Nb2N2"
+      ],
+      "Tc_v11_mean": 2.31,
+      "Tc_v11_range": [
+        0.37,
+        4.26
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 2,
+      "examples": [
+        "Nb10Si6N2",
+        "Be8Mn4"
+      ],
+      "Tc_v11_mean": 1.2,
+      "Tc_v11_range": [
+        0.86,
+        1.55
+      ]
+    },
+    {
+      "point_group": "Oh",
+      "dominant_channel": "z3",
+      "size": 2,
+      "examples": [
+        "V6Fe2",
+        "V6Ge2"
+      ],
+      "Tc_v11_mean": 0.33,
+      "Tc_v11_range": [
+        0.17,
+        0.5
+      ]
+    },
+    {
+      "point_group": "Td",
+      "dominant_channel": "z3",
+      "size": 2,
+      "examples": [
+        "Co4ZrTa",
+        "Be4FeGe"
+      ],
+      "Tc_v11_mean": 5.24,
+      "Tc_v11_range": [
+        0.85,
+        9.63
+      ]
+    },
+    {
+      "point_group": "Td",
+      "dominant_channel": "z3",
+      "size": 2,
+      "examples": [
+        "Co4BeNb",
+        "Ni4ScSn"
+      ],
+      "Tc_v11_mean": 1.52,
+      "Tc_v11_range": [
+        1.45,
+        1.59
+      ]
+    },
+    {
+      "point_group": "Th",
+      "dominant_channel": "z3",
+      "size": 2,
+      "examples": [
+        "V6CoIr",
+        "V6CoRh"
+      ],
+      "Tc_v11_mean": 0.53,
+      "Tc_v11_range": [
+        0.53,
+        0.53
+      ]
+    },
+    {
+      "point_group": "C2h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "P4Cr2"
+      ],
+      "Tc_v11_mean": 15.87,
+      "Tc_v11_range": [
+        15.87,
+        15.87
+      ]
+    },
+    {
+      "point_group": "C2h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "C3Y2Cr2"
+      ],
+      "Tc_v11_mean": 4.96,
+      "Tc_v11_range": [
+        4.96,
+        4.96
+      ]
+    },
+    {
+      "point_group": "C2h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "Nb6C5"
+      ],
+      "Tc_v11_mean": 0.27,
+      "Tc_v11_range": [
+        0.27,
+        0.27
+      ]
+    },
+    {
+      "point_group": "C2h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "Sc4Si4Fe2"
+      ],
+      "Tc_v11_mean": 2.0,
+      "Tc_v11_range": [
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "point_group": "C2v",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "Al3Ti"
+      ],
+      "Tc_v11_mean": 11.65,
+      "Tc_v11_range": [
+        11.65,
+        11.65
+      ]
+    },
+    {
+      "point_group": "C2v",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "B4Mo2Ru2"
+      ],
+      "Tc_v11_mean": 0.26,
+      "Tc_v11_range": [
+        0.26,
+        0.26
+      ]
+    },
+    {
+      "point_group": "C2v",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "Mn2N2"
+      ],
+      "Tc_v11_mean": 1.22,
+      "Tc_v11_range": [
+        1.22,
+        1.22
+      ]
+    },
+    {
+      "point_group": "C2v",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "O3Fe2F"
+      ],
+      "Tc_v11_mean": 7.01,
+      "Tc_v11_range": [
+        7.01,
+        7.01
+      ]
+    },
+    {
+      "point_group": "C3v",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "N6Ti2Re2"
+      ],
+      "Tc_v11_mean": 5.92,
+      "Tc_v11_range": [
+        5.92,
+        5.92
+      ]
+    },
+    {
+      "point_group": "C6v",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "N4Zn2Mo2"
+      ],
+      "Tc_v11_mean": 15.9,
+      "Tc_v11_range": [
+        15.9,
+        15.9
+      ]
+    },
+    {
+      "point_group": "Ci",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "N2La"
+      ],
+      "Tc_v11_mean": 0.07,
+      "Tc_v11_range": [
+        0.07,
+        0.07
+      ]
+    },
+    {
+      "point_group": "Ci",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "F3Cu"
+      ],
+      "Tc_v11_mean": 0.18,
+      "Tc_v11_range": [
+        0.18,
+        0.18
+      ]
+    },
+    {
+      "point_group": "Ci",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "O7Li4Fe2Si"
+      ],
+      "Tc_v11_mean": 5.39,
+      "Tc_v11_range": [
+        5.39,
+        5.39
+      ]
+    },
+    {
+      "point_group": "Cs",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "NaCO"
+      ],
+      "Tc_v11_mean": 0.25,
+      "Tc_v11_range": [
+        0.25,
+        0.25
+      ]
+    },
+    {
+      "point_group": "Cs",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "O8Mo3Sc"
+      ],
+      "Tc_v11_mean": 3.46,
+      "Tc_v11_range": [
+        3.46,
+        3.46
+      ]
+    },
+    {
+      "point_group": "D2",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "Si6Ta2Cr"
+      ],
+      "Tc_v11_mean": 1.79,
+      "Tc_v11_range": [
+        1.79,
+        1.79
+      ]
+    },
+    {
+      "point_group": "D2d",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "Li3P2Mn"
+      ],
+      "Tc_v11_mean": 0.02,
+      "Tc_v11_range": [
+        0.02,
+        0.02
+      ]
+    },
+    {
+      "point_group": "D2d",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "Cu2N2B"
+      ],
+      "Tc_v11_mean": 2.04,
+      "Tc_v11_range": [
+        2.04,
+        2.04
+      ]
+    },
+    {
+      "point_group": "D2d",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "N2TiAl"
+      ],
+      "Tc_v11_mean": 1.14,
+      "Tc_v11_range": [
+        1.14,
+        1.14
+      ]
+    },
+    {
+      "point_group": "D2d",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "N2CuB"
+      ],
+      "Tc_v11_mean": 4.96,
+      "Tc_v11_range": [
+        4.96,
+        4.96
+      ]
+    },
+    {
+      "point_group": "D2d",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "Be2MnV"
+      ],
+      "Tc_v11_mean": 4.12,
+      "Tc_v11_range": [
+        4.12,
+        4.12
+      ]
+    },
+    {
+      "point_group": "D2d",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "Si2N2Mg"
+      ],
+      "Tc_v11_mean": 0.7,
+      "Tc_v11_range": [
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "O2RuF"
+      ],
+      "Tc_v11_mean": 0.0,
+      "Tc_v11_range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "V4As4"
+      ],
+      "Tc_v11_mean": 5.71,
+      "Tc_v11_range": [
+        5.71,
+        5.71
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "Co4N2"
+      ],
+      "Tc_v11_mean": 3.96,
+      "Tc_v11_range": [
+        3.96,
+        3.96
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "O4VSn"
+      ],
+      "Tc_v11_mean": 2.51,
+      "Tc_v11_range": [
+        2.51,
+        2.51
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "P4Ru4"
+      ],
+      "Tc_v11_mean": 0.08,
+      "Tc_v11_range": [
+        0.08,
+        0.08
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "Si2Ni2"
+      ],
+      "Tc_v11_mean": 10.13,
+      "Tc_v11_range": [
+        10.13,
+        10.13
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "Ni2B2"
+      ],
+      "Tc_v11_mean": 10.46,
+      "Tc_v11_range": [
+        10.46,
+        10.46
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "Li4B4"
+      ],
+      "Tc_v11_mean": 1.74,
+      "Tc_v11_range": [
+        1.74,
+        1.74
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "B4Ru2"
+      ],
+      "Tc_v11_mean": 3.6,
+      "Tc_v11_range": [
+        3.6,
+        3.6
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "B6V2Co2"
+      ],
+      "Tc_v11_mean": 0.17,
+      "Tc_v11_range": [
+        0.17,
+        0.17
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "B8Cr2"
+      ],
+      "Tc_v11_mean": 0.36,
+      "Tc_v11_range": [
+        0.36,
+        0.36
+      ]
+    },
+    {
+      "point_group": "D2h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "B4C2N2"
+      ],
+      "Tc_v11_mean": 0.14,
+      "Tc_v11_range": [
+        0.14,
+        0.14
+      ]
+    },
+    {
+      "point_group": "D3",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Al3Si3Mo3"
+      ],
+      "Tc_v11_mean": 4.67,
+      "Tc_v11_range": [
+        4.67,
+        4.67
+      ]
+    },
+    {
+      "point_group": "D3d",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Li2N2Al"
+      ],
+      "Tc_v11_mean": 9.69,
+      "Tc_v11_range": [
+        9.69,
+        9.69
+      ]
+    },
+    {
+      "point_group": "D3d",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "O3Fe2Na"
+      ],
+      "Tc_v11_mean": 1.46,
+      "Tc_v11_range": [
+        1.46,
+        1.46
+      ]
+    },
+    {
+      "point_group": "D3d",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Mn3N2"
+      ],
+      "Tc_v11_mean": 1.64,
+      "Tc_v11_range": [
+        1.64,
+        1.64
+      ]
+    },
+    {
+      "point_group": "D3d",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "N3V2"
+      ],
+      "Tc_v11_mean": 14.52,
+      "Tc_v11_range": [
+        14.52,
+        14.52
+      ]
+    },
+    {
+      "point_group": "D3d",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Al3Hf2Ag"
+      ],
+      "Tc_v11_mean": 2.09,
+      "Tc_v11_range": [
+        2.09,
+        2.09
+      ]
+    },
+    {
+      "point_group": "D3d",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "As2CoNi"
+      ],
+      "Tc_v11_mean": 1.83,
+      "Tc_v11_range": [
+        1.83,
+        1.83
+      ]
+    },
+    {
+      "point_group": "D3d",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Co2Si2Al"
+      ],
+      "Tc_v11_mean": 8.4,
+      "Tc_v11_range": [
+        8.4,
+        8.4
+      ]
+    },
+    {
+      "point_group": "D3d",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "O2CaZr"
+      ],
+      "Tc_v11_mean": 1.1,
+      "Tc_v11_range": [
+        1.1,
+        1.1
+      ]
+    },
+    {
+      "point_group": "D3d",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "B2O2S"
+      ],
+      "Tc_v11_mean": 0.94,
+      "Tc_v11_range": [
+        0.94,
+        0.94
+      ]
+    },
+    {
+      "point_group": "D3d",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Al3Ni2"
+      ],
+      "Tc_v11_mean": 9.16,
+      "Tc_v11_range": [
+        9.16,
+        9.16
+      ]
+    },
+    {
+      "point_group": "D3d",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Y2H2C"
+      ],
+      "Tc_v11_mean": 9.46,
+      "Tc_v11_range": [
+        9.46,
+        9.46
+      ]
+    },
+    {
+      "point_group": "D3d",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "B6Mo2"
+      ],
+      "Tc_v11_mean": 2.41,
+      "Tc_v11_range": [
+        2.41,
+        2.41
+      ]
+    },
+    {
+      "point_group": "D3h",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "B4MoIr"
+      ],
+      "Tc_v11_mean": 5.98,
+      "Tc_v11_range": [
+        5.98,
+        5.98
+      ]
+    },
+    {
+      "point_group": "D3h",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Ti6Si2B"
+      ],
+      "Tc_v11_mean": 5.67,
+      "Tc_v11_range": [
+        5.67,
+        5.67
+      ]
+    },
+    {
+      "point_group": "D3h",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Nb3Cr3Ge3"
+      ],
+      "Tc_v11_mean": 2.75,
+      "Tc_v11_range": [
+        2.75,
+        2.75
+      ]
+    },
+    {
+      "point_group": "D3h",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Ti3Cr3As3"
+      ],
+      "Tc_v11_mean": 3.08,
+      "Tc_v11_range": [
+        3.08,
+        3.08
+      ]
+    },
+    {
+      "point_group": "D3h",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Ti3Fe3As3"
+      ],
+      "Tc_v11_mean": 3.62,
+      "Tc_v11_range": [
+        3.62,
+        3.62
+      ]
+    },
+    {
+      "point_group": "D3h",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Hf3Mo3P3"
+      ],
+      "Tc_v11_mean": 3.0,
+      "Tc_v11_range": [
+        3.0,
+        3.0
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "Ni6AlGe"
+      ],
+      "Tc_v11_mean": 0.33,
+      "Tc_v11_range": [
+        0.33,
+        0.33
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "B2S2O2"
+      ],
+      "Tc_v11_mean": 1.61,
+      "Tc_v11_range": [
+        1.61,
+        1.61
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "Zn2Cl2O2"
+      ],
+      "Tc_v11_mean": 0.24,
+      "Tc_v11_range": [
+        0.24,
+        0.24
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "Mn2V2As2"
+      ],
+      "Tc_v11_mean": 1.89,
+      "Tc_v11_range": [
+        1.89,
+        1.89
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "O5K2Rh2"
+      ],
+      "Tc_v11_mean": 3.4,
+      "Tc_v11_range": [
+        3.4,
+        3.4
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "O4Fe2"
+      ],
+      "Tc_v11_mean": 20.74,
+      "Tc_v11_range": [
+        20.74,
+        20.74
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "Ni4B2"
+      ],
+      "Tc_v11_mean": 0.75,
+      "Tc_v11_range": [
+        0.75,
+        0.75
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "H4MgTi"
+      ],
+      "Tc_v11_mean": 0.25,
+      "Tc_v11_range": [
+        0.25,
+        0.25
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "N4Zr3Al"
+      ],
+      "Tc_v11_mean": 0.48,
+      "Tc_v11_range": [
+        0.48,
+        0.48
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "s",
+      "size": 1,
+      "examples": [
+        "P4Ni2Ba"
+      ],
+      "Tc_v11_mean": 6.25,
+      "Tc_v11_range": [
+        6.25,
+        6.25
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "Co2BeP"
+      ],
+      "Tc_v11_mean": 0.0,
+      "Tc_v11_range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "Ca2BeIn"
+      ],
+      "Tc_v11_mean": 0.48,
+      "Tc_v11_range": [
+        0.48,
+        0.48
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "O4Co2"
+      ],
+      "Tc_v11_mean": 16.23,
+      "Tc_v11_range": [
+        16.23,
+        16.23
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "Al6TaNb"
+      ],
+      "Tc_v11_mean": 0.0,
+      "Tc_v11_range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "O4Fe2"
+      ],
+      "Tc_v11_mean": 3.61,
+      "Tc_v11_range": [
+        3.61,
+        3.61
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "Al2H2O2"
+      ],
+      "Tc_v11_mean": 1.19,
+      "Tc_v11_range": [
+        1.19,
+        1.19
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "Li2Fe2P2"
+      ],
+      "Tc_v11_mean": 3.44,
+      "Tc_v11_range": [
+        3.44,
+        3.44
+      ]
+    },
+    {
+      "point_group": "D4h",
+      "dominant_channel": "z4",
+      "size": 1,
+      "examples": [
+        "O8Ti3Ba2Y"
+      ],
+      "Tc_v11_mean": 7.64,
+      "Tc_v11_range": [
+        7.64,
+        7.64
+      ]
+    },
+    {
+      "point_group": "D6",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Si6V3"
+      ],
+      "Tc_v11_mean": 8.63,
+      "Tc_v11_range": [
+        8.63,
+        8.63
+      ]
+    },
+    {
+      "point_group": "D6",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Al6W3"
+      ],
+      "Tc_v11_mean": 0.29,
+      "Tc_v11_range": [
+        0.29,
+        0.29
+      ]
+    },
+    {
+      "point_group": "D6",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Si6V3"
+      ],
+      "Tc_v11_mean": 3.78,
+      "Tc_v11_range": [
+        3.78,
+        3.78
+      ]
+    },
+    {
+      "point_group": "D6",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Zr6O2"
+      ],
+      "Tc_v11_mean": 0.09,
+      "Tc_v11_range": [
+        0.09,
+        0.09
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z6",
+      "size": 1,
+      "examples": [
+        "B4ZrNb"
+      ],
+      "Tc_v11_mean": 3.53,
+      "Tc_v11_range": [
+        3.53,
+        3.53
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Co3B2Hf"
+      ],
+      "Tc_v11_mean": 0.25,
+      "Tc_v11_range": [
+        0.25,
+        0.25
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Sc4Al2"
+      ],
+      "Tc_v11_mean": 2.42,
+      "Tc_v11_range": [
+        2.42,
+        2.42
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Zr2N2"
+      ],
+      "Tc_v11_mean": 0.09,
+      "Tc_v11_range": [
+        0.09,
+        0.09
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Re6W2"
+      ],
+      "Tc_v11_mean": 0.19,
+      "Tc_v11_range": [
+        0.19,
+        0.19
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Hf2Be2Si2"
+      ],
+      "Tc_v11_mean": 10.06,
+      "Tc_v11_range": [
+        10.06,
+        10.06
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "N4Sc2Ta2"
+      ],
+      "Tc_v11_mean": 1.19,
+      "Tc_v11_range": [
+        1.19,
+        1.19
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "B4HfTi"
+      ],
+      "Tc_v11_mean": 2.6,
+      "Tc_v11_range": [
+        2.6,
+        2.6
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "P4Ni2Mo2"
+      ],
+      "Tc_v11_mean": 7.82,
+      "Tc_v11_range": [
+        7.82,
+        7.82
+      ]
+    },
+    {
+      "point_group": "D6h",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "N3Zr2Ta"
+      ],
+      "Tc_v11_mean": 1.52,
+      "Tc_v11_range": [
+        1.52,
+        1.52
+      ]
+    },
+    {
+      "point_group": "Oh",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Nb3O3"
+      ],
+      "Tc_v11_mean": 0.0,
+      "Tc_v11_range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "point_group": "Oh",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "B6Y"
+      ],
+      "Tc_v11_mean": 1.44,
+      "Tc_v11_range": [
+        1.44,
+        1.44
+      ]
+    },
+    {
+      "point_group": "Oh",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Cr6As2"
+      ],
+      "Tc_v11_mean": 0.57,
+      "Tc_v11_range": [
+        0.57,
+        0.57
+      ]
+    },
+    {
+      "point_group": "Oh",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Nb6Si2"
+      ],
+      "Tc_v11_mean": 0.23,
+      "Tc_v11_range": [
+        0.23,
+        0.23
+      ]
+    },
+    {
+      "point_group": "Oh",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Nb4C3"
+      ],
+      "Tc_v11_mean": 0.65,
+      "Tc_v11_range": [
+        0.65,
+        0.65
+      ]
+    },
+    {
+      "point_group": "Oh",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "B6K"
+      ],
+      "Tc_v11_mean": 1.96,
+      "Tc_v11_range": [
+        1.96,
+        1.96
+      ]
+    },
+    {
+      "point_group": "Oh",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Ti3O3"
+      ],
+      "Tc_v11_mean": 0.0,
+      "Tc_v11_range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "point_group": "Oh",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "Nb3O3"
+      ],
+      "Tc_v11_mean": 0.0,
+      "Tc_v11_range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "point_group": "Oh",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "N8Cr6"
+      ],
+      "Tc_v11_mean": 0.56,
+      "Tc_v11_range": [
+        0.56,
+        0.56
+      ]
+    },
+    {
+      "point_group": "Oh",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "B6Sr"
+      ],
+      "Tc_v11_mean": 1.88,
+      "Tc_v11_range": [
+        1.88,
+        1.88
+      ]
+    },
+    {
+      "point_group": "Th",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "V6GeOs"
+      ],
+      "Tc_v11_mean": 0.46,
+      "Tc_v11_range": [
+        0.46,
+        0.46
+      ]
+    },
+    {
+      "point_group": "Th",
+      "dominant_channel": "z3",
+      "size": 1,
+      "examples": [
+        "P12Rh4"
+      ],
+      "Tc_v11_mean": 2.51,
+      "Tc_v11_range": [
+        2.51,
+        2.51
+      ]
+    }
+  ]
+}
